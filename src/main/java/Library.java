@@ -24,4 +24,8 @@ public class Library {
     }
 
 
+    public Book removeBookFromLibrary(int index) {
+        Book bookRemoved = this.books.remove(index);
+        return bookRemoved;
+    }
 }

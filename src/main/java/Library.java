@@ -6,4 +6,12 @@ public class Library {
     public Library(){
         this.books = new ArrayList<Book>();
     }
+
+    public int bookCount() {
+        return this.books.size();
+    }
+
+    public void addBookToLibrary(Book book) {
+        this.books.add(book);
+    }
 }
